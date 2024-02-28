@@ -33,12 +33,12 @@ services:
       POSTGRES_DB: airflow_reddit
       POSTGRES_PORT: 5432
     ports:
-      - "5432:5432"
+      - 5432:5432
 
   redis:
     image: redis:latest
     ports:
-      - "6379:6379"
+      - 6379:6379
 
   airflow-init:
     <<: *airflow-common
@@ -50,7 +50,7 @@ services:
     <<: *airflow-common
     command: webserver
     ports:
-      - "8080:8080"
+      - 8080:8080
 
   airflow-scheduler:
     <<: *airflow-common
