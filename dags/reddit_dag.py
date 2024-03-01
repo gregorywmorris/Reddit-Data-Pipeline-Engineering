@@ -11,8 +11,8 @@ from pipelines.aws_s3_pipeline import upload_s3_pipeline
 from pipelines.reddit_pipeline import reddit_pipeline
 
 default_args = {
-    'owner': 'Yusuf Ganiyu',
-    'start_date': datetime(2023, 10, 22)
+    'owner': 'Gregory Morris',
+    'start_date': datetime(2024, 2, 28)
 }
 
 file_postfix = datetime.now().strftime("%Y%m%d")
