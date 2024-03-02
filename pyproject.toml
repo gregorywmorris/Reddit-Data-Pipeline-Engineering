@@ -7,6 +7,7 @@ authors = [
 ]
 dependencies = [
     "pandas>=2.2.1",
+    "configparser>=6.0.1",
 ]
 requires-python = "==3.11.*"
 readme = "README.md"
@@ -14,4 +15,4 @@ license = {text = "NONE"}
 
 
 [tool.pdm]
-distribution = true
+distribution = false

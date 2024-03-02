@@ -5,7 +5,18 @@
 groups = ["default"]
 strategy = ["cross_platform", "inherit_metadata"]
 lock_version = "4.4.1"
-content_hash = "sha256:667edeade5d3dadd58fe933fd3a247dc4f2e671358a9c9c145c59ad11a307bb5"
+content_hash = "sha256:0191c4ed8869558daf8eaf4b085b25a49b09b64da52f737e36105efb9d4cbd8f"
+
+[[package]]
+name = "configparser"
+version = "6.0.1"
+requires_python = ">=3.8"
+summary = "Updated configparser from stdlib for earlier Pythons."
+groups = ["default"]
+files = [
+    {file = "configparser-6.0.1-py3-none-any.whl", hash = "sha256:5a0da275bea56f871abaa9e0806331791e9d8ae2938e8b8797b99ab3e8e192c4"},
+    {file = "configparser-6.0.1.tar.gz", hash = "sha256:db45513e971e509496b150be31bd67b0e14ab20b78a383b677e4b158e2c682d8"},
+]
 
 [[package]]
 name = "numpy"
