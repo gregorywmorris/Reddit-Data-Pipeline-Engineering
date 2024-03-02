@@ -1,0 +1,17 @@
+[project]
+name = "Reddit-Data-Pipeline-Engineering"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Gregory Morris", email = "gwm1980@gmail.com"},
+]
+dependencies = [
+    "pandas>=2.2.1",
+]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "NONE"}
+
+
+[tool.pdm]
+distribution = true
